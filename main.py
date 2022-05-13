@@ -11,7 +11,7 @@ conn = sqlite3.connect("news.sqlite")
 cursor = conn.cursor()
 
 
-# Functions
+# Create table
 
 cursor.execute('''CREATE TABLE IF NOT EXISTS news
                 (id INTEGER PRIMARY KEY AUTOINCREMENT,
